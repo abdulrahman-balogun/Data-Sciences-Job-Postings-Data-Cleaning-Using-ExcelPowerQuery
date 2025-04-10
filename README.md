@@ -1,10 +1,17 @@
 # Data-Sciences-Job-Postings-Data-Cleaning-Using-ExcelPowerQuery
+## Table of Contents
 
+- [Project Description](#project-description)
+- [Uncleaned Dataset](#uncleaned-dataset)
+- [Objectives](#objectives)
+- [Cleaned Dataset Process](#cleaned-dataset-process)
+- [Tools](#tools)
+- [Key Insight](#key-insight)
+
+## Project Description
 README.txt file tailored to help you analyze your cleaned and uncleaned datasets based on the provided job postings data. These datasets contain information about data science job postings, including job titles, salary estimates, descriptions, company details, and required skills. The goal is to assist users in understanding the data, identifying differences between the uncleaned and cleaned versions, and performing meaningful analyses.
 
-# Dataset Description
-
-1. ## Uncleaned Dataset
+ ### Uncleaned Dataset
 
 File Name: uncleaned_job_postings.csv (or similar, depending on your naming)
 Source: Raw data extracted from job postings (e.g., as provided in the document).
@@ -29,7 +36,7 @@ Format: CSV (Comma-Separated Values)
 -	Competitors: Known competitors (e.g., “EmblemHealth, UnitedHealth Group, Aetna”, -1 if none listed).
 -	Additional columns in some versions (e.g., min_salary, max_salary, avg_salary, python, excel, etc.) indicating parsed salary ranges and required skills.
 
-2. ## Objectives
+### Objectives
 
 The datasets objective is to be used for:
 - Analyze trends in data science job postings (e.g., salary ranges, required skills, industries).
@@ -38,7 +45,7 @@ The datasets objective is to be used for:
 - Explore company demographics (e.g., size, revenue, founding year).
 
 
-3. ## Cleaned Dataset Process:
+### Cleaned Dataset Process:
 
 -	File Name: cleaned_job_postings.csv (or similar, depending on your naming)
 -	Source: Processed version of the uncleaned dataset.
@@ -55,7 +62,11 @@ The datasets objective is to be used for:
 -	Added binary skill columns (e.g., python, excel) where applicable, based on job description parsing.
 -	Columns: Same as the uncleaned dataset, with additional processed columns (e.g., min_salary, max_salary, avg_salary) and cleaned data.
 
-## Tools:
+### Tools:
 
 - Excel
 - PowerQuery
+
+### Key Insight
+
+- The key insight from this project is that cleaning the job postings dataset significantly improves data quality, revealing clearer salary trends and skill demands. The cleaned data shows Python and Excel as top skills, with average salaries varying by location and industry, enabling more accurate analysis and predictions.
