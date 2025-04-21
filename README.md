@@ -1,4 +1,7 @@
 # Data-Sciences-Job-Postings-Data-Cleaning-Using-ExcelPowerQuery
+
+![Image](https://github.com/user-attachments/assets/3ed2793c-682f-419a-acf3-3101e1fac6f6)
+
 ## Table of Contents
 
 - [Project Description](#project-description)
